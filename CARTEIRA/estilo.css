@@ -1,0 +1,108 @@
+body{
+    padding-top: 48px;
+    background-color: ;
+
+}
+.sidebar{
+    position: fixed;
+    top: 0;
+    bottom:0;
+    left: 0;
+    z-index: 1;
+    padding: 48px 0 0;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, 1);
+    color: black;
+    height: 100%;
+}
+
+.sidebar-heading{
+    font-size: .75rem;
+    text-transform: uppercase;
+}
+.sidebar .nav-link{
+    font-weight: 500;
+    color: white;
+}
+
+.sidebar .active{
+    color: yellow;
+}
+
+.nav > li{
+    border: 1px solid black;
+    padding: 1px;
+    margin-top: 2px;
+    
+}
+
+.nav >h6{
+    margin-top: 10px;
+}
+.jumbotron{
+   position:relative;
+   background-color: rgba(156, 156, 156, 0.616);
+    display: inline-block;
+   
+    
+   
+    min-height: auto;
+}
+
+.logo{
+    height: 75px;
+    display: flex;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.titulo{
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#carteira{
+    width: 30%;
+    height: 700px;
+    color:black;
+    font-size: 50px;
+    background-color: white;
+    display: block;
+    justify-content: left;
+    float: left;
+    
+}
+
+#side{
+    width: 30%;
+    height: 700px;
+    color: black;
+    background-color: white;
+    display: block;
+    font-size: 50px;
+    justify-content: right;
+    justify-items: left;
+    float: right;
+    padding: 5px;
+    text-align: center;
+}
+
+#botoes{
+    float: inline-start;
+    justify-content: space-between;
+    display: flex; 
+    
+}
